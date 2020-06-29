@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BOOSTFOLIA</title>
+    <link rel="stylesheet" type="text/css" href="access/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="header_flex">
+			<div class="logo header_logo">
+				<img src="access/img/Logo.png" alt="Логотип">
+				<h3>BOOSTFOLIA</h3>
+			</div>
+
+			<div class="menu_burger">
+				<span></span>
+                
+        
+				<ul class="menu_list menu_list_hidden">
+					<li class="menu_divide" id='aboutUs'>ABOUT US</li>
+					<li class="menu_divide" id= 'works'>OUR WORKS</li>
+					<li class="menu_divide" id= 'we'>WHO WE ARE</li>
+					<li class="menu_divide" id = 'blog'>BLOG POSTS</li>
+					<li class="menu_divide" id = 'locayion'>OUR LOCATION</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+	</header>
+    
+    <section class="tegline">
+      <div class="container tegline_container">
+    	<h1> WE THINK CREATIVE BE CREATIVE</h1>
+    	<h2>LIKE TO DO CREATIVE WORKS</h2>
+
+    	<div class="tegline_mouse"><img src="access/img/mouse.png" alt="mouse"></div>
+
+    	<p class="text">SCROLL DOWN</p>
+      </div>
+    </section>
+
+    <section class="about" id="AboutUs">
+      <div class="container">
+    	<h3 class="heading">ABOUT US</h3>
+    	<div class="elem_to_senter"><span class="line about_line"></span></div>
+    	<p class="text_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+    	<div class="about_flex">
+    		<div class="about_elem">
+    			<img src="access/img/valik.png" alt="валик">
+    			<h6>CREATIVE DESIGN</h6>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
+    		</div>
+    		<div class="about_elem">
+    			<img src="access/img/portfel.png" alt="валик">
+    			<h6>UNIQU PORTFOLIO</h6>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
+    		</div>
+    		<div class="about_elem">
+    			<img src="access/img/8.png" alt="валик">
+    			<h6>INFINITE UPDATES</h6>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
+    		</div>
+    	</div>
+       </div>
+    </section>
+
+    <section class="video">
+    	<div class="video_flex">
+    		<div class="video_elem">
+    			<h2>WATCH BEHIND THE SCENE</h2>
+    			<p class="text">Lorem ipsum dolo the lorem r sit amet, consectetur adipisicing elit, sed do
+    			eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+    			<div class="elem_to_senter"><bottom class="play_now">PLAY NOW</bottom></div>
+    		</div>
+
+            <div class="video_elem2">
+    		    <video src="access/video/IMG_5147.MP4" class='clip'></video>
+
+    		    <div  class="play"><img src="access/img/play.png" alt="кнопка play"></div>
+    	    </div>
+    	</div>
+    </section>
+
+    <script src="access/js/mini-video.js"></script>
+
+    <section class="fullVideoBlock">
+    	<video class="fullVideo" src="access/video/Если_кто_то_не_понял,_объясняю_еще.mp4" controls onclick="event.stopPropagation()"></video>
+    </section>
+
+    <script src="access/js/full-video.js"></script>
+
+    <section class="our_works" id="ourWorks">
+    	<div class="container">
+    		<h3 class="heading">OUR WORKS</h3>
+    	    <div class="elem_to_senter"><span class="line ourworks_line"></span></div>
+    	    <p class="text_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+    	    <div class="portfolio_bottoms">
+    	    	<bottom class="portfolio_bottom all_bottom">
+    	    		ALL PROJECTS
+    	    		<span></span>
+    	    	</bottom>
+    	    	<bottom class="portfolio_bottom photo_bottom">
+    	    		PHOTOGRAPHY
+    	    		<span></span>
+    	    	</bottom>
+    	    	<bottom class="portfolio_bottom web_bottom">
+    	    		WEB DESIGN
+    	    		<span></span>
+    	    	</bottom>
+    	    	<bottom class="portfolio_bottom brand_bottom">
+    	    		BRANDING
+    	    		<span></span>
+    	    	</bottom>
+    	    	<bottom class="portfolio_bottom mobile_bottom">
+    	    		MOBILE APP
+    	    		<span></span>
+    	    	</bottom>
+    	    </div>
+    	</div>
+    </section>
+
+    <section class="portfolio">
+    	<div class="grid_all">
+    		<div class="portfolio_all portfolio_foto"><img src="access/img/ащещ_1.jpg" alt=""></div>
+    		<div class="portfolio_all portfolio_mobile"><img src="access/img/1-onboarding-screen-mobile-app-designs.jpg" alt=""></div>
+    		<div class="portfolio_all portfolio_web"><img src="access/img/Minto-A-Free-Minimal-full.png" alt=""></div>
+    		<div class="portfolio_all portfolio_web"><img src="access/img/ProfessionalWebsiteTemplateDesign-full.jpg" alt=""></div>
+    		<div class="portfolio_all portfolio_foto"><img src="access/img/фото_2.jpg" alt=""></div>
+    		<div class="portfolio_all portfolio_foto"><img src="access/img/фото_3.jpeg" alt=""></div>
+    		<div class="portfolio_all portfolio_logotipe"><img src="access/img/логотип_1.png" alt=""></div>
+    		<div class="portfolio_all portfolio_foto"><img src="access/img/фото_3.jpg" alt=""></div>
+    		<div class="portfolio_all portfolio_foto"><img src="access/img/фото_5.jpg" alt=""></div>
+    		<div class="portfolio_all portfolio_logotipe"><img src="access/img/Логотип_2.png" alt=""></div>
+    		<div class="portfolio_all portfolio_foto"><img src="access/img/фото_6.jpg" alt=""></div>
+    		<div class="portfolio_all portfolio_logotipe"><img src="access/img/Логотип_3.jpg" alt=""></div>
+    		<div class="portfolio_all portfolio_logotipe"><img src="access/img/Логотип_4.png" alt=""></div>
+    		<div class="portfolio_all portfolio_logotipe"><img src="access/img/Логотип_5.jpg" alt=""></div>
+    		<div class="portfolio_all portfolio_mobile"><img src="access/img/2-onboarding-screen-mobile-app-designs.jpg" alt=""></div>
+    	</div>
+    </section>
+
+    <div class="fullBlock"></div>
+
+    <script src="access/js/portfolio.js"></script>
+
+    
+    <section class="who">
+    	<div id="whoWeAre"></div>
+    	<div class="container">
+    		<h3 class="heading">WHO WE ARE</h3>
+    	    <div class="elem_to_senter"><span class="line ourworks_line"></span></div>
+    	    <p class="text_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+    	    <div class="who_flex">
+
+    	    	<div class="person">
+    	    		<img src="access/img/avatar1.jpg" alt="Аватар" class="avatar">
+    	    		<h5 class="name">JANE SMITH</h5>
+    	    		<h6 class="profession">DESIGNER</h6>
+    	    		<div class="contacts">
+    	    			<a href="https://twitter.com/login?lang=ru"><img src="access/img/twiter.png" alt="Твитер"></a>
+    	    			<a href="https://uk-ua.facebook.com/"><img src="access/img/feasebook.png" alt="Фейсбук"></a>
+    	    			<a href="https://www.behance.net/"><img src="access/img/behains.png" alt="Behance"></a>
+    	    		</div>
+
+    	    		<div class="who_buttons">
+    	    			<button class="Smith_button"></button>
+    	    			<button class="Jonson_button"></button>
+    	    			<button class="Grean_button"></button>
+    	    		</div>
+    	    	</div>
+
+    	    	<div class="skills">
+    	    		<h5>MY SKILLS</h5>
+    	    		<p class="skills_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.nsectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+    	    		<div class="skills_list">
+    	    			<div class="skill">
+    	    				<div class="skill_name"><h6>PHOTO<br>SHOP</h6></div>
+    	    				<div class="skill_progres">
+    	    				    <span class="bar"><span class="skill_bar photoshop_bar"></span></span>
+    	    				</div>
+    	    				<p class="persent"><span id='photoshopPersent'>88</span>%</p>
+    	    			</div>
+    	    			<div class="skill">
+    	    				<div class="skill_name"><h6>ILLUS<br>TRATOR</h6></div>
+    	    				<div class="skill_progres">
+    	    				    <span class="bar"><span class="skill_bar illustrator_bar"></span></span>
+    	    				</div>	
+    	    				<p class="persent"><span id=illustratorPersent>92</span>%</p>    				
+    	    			</div>
+    	    			<div class="skill">
+    	    				<div class="skill_name"><h6>SKETCH</h6></div>
+    	    				<div class="skill_progres">
+    	    				    <span class="bar"><span class="skill_bar sketch_bar"></span></span>
+    	    				</div> 
+    	    				<p class="persent"><span id='sketchPersent'>90</span>%</p>  	    				
+    	    			</div>
+    	    			<div class="skill">
+    	    				<div class="skill_name"><h6>AFTER EFFECTS</h6></div>
+    	    				<div class="skill_progres">
+    	    				    <span class="bar"><span class="skill_bar effects_bar"></span></span>
+    	    				</div>   	
+    	    				<p class="persent"><span id='effectsPersent'>98</span>%</p>    				
+    	    			</div>
+    	    		</div>
+    	    	</div>
+
+    	    </div>
+
+    	</div>
+    </section>
+
+    <script type="text/javascript" src="access/js/skills.js"></script>
+
+    <div class="featueres">
+    	<div class="container">
+    		<h2 class="heading">SOME FEATURES</h2>
+
+    		<div class="featueres_flex">
+    			<div class="flexelem">
+    				<img src="access/img/computer.png" alt="pc">
+    				<h6>Clients Worldwide</h6>
+    				<p>100+</p>
+    			</div>
+    			<div class="flexelem">
+    				<img src="access/img/izphotoshop1.png" alt="pc">
+    				<h6>Shortcodes</h6>
+    				<p>46</p>
+    			</div>
+    			<div class="flexelem">
+    				<img src="access/img/aaaa.png" alt="pc">
+    				<h6>Integrated Plugins</h6>
+    				<p>128</p>    				
+    			</div>
+    			<div class="flexelem">
+    				<img src="access/img/iz3.png" alt="pc">
+    				<h6>Creative Products</h6>
+    				<p>450</p>    				
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    
+    <section class="blogs">
+    	<div class="container">
+    		<h2 class="heading" id="blogPosts">BLOG POSTS</h2>
+    		<p class="text_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam.</p>
+
+    	<div class="blogs_flex">
+    		<div class="blog">
+    			<div class="blog_cont">
+    			    <img src="access/img/blog.png" alt="blog" class="blog_img">
+                    
+                    <div class="blog_buttons">
+                    	<div class="dlog_buttonscont">
+                    	<a class="get_link get_link1"><div><img src="access/img/копировать.png" alt="копировать ссылку"></div></a>
+
+                    	<a class="blog_look" href="index.html"><div><img src="access/img/глаз.png" alt="глаз"></div></a>
+                    	</div>
+                    </div>
+    			</div>
+                
+                <div class="blog_text">
+                    <h6>Creat Creative & Clean</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <div class="blog_flex">
+                    	<div class="data">
+                    		<img src="access/img/clock.png" alt="часы">
+                    		<p>25 Jan 2015</p>
+                    	</div>
+
+                    	<div class="stat">
+                    		<img src="access/img/like.png" alt="like">
+                    		<p>60</p>
+                    		<img src="access/img/coments.png" alt="coment">
+                    		<p>16</p>
+                    	</div>
+                    </div>
+
+                </div>
+    		</div>
+    		<div class="blog">
+    			<div class="blog_cont">
+    			    <img src="access/img/blog.png" alt="blog" class="blog_img">
+                    
+                    <div class="blog_buttons">
+                    	<div class="dlog_buttonscont">
+                    	<a class="get_link get_link2"><div><img src="access/img/копировать.png" alt="копировать ссылку"></div></a>
+
+                    	<a class="blog_look" href='index.html'><div><img src="access/img/глаз.png" alt="глаз"></div></a>
+                    	</div>
+                    </div>
+    			</div>
+
+                <div class="blog_text">
+                    <h6>Creat Creative & Clean</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <div class="blog_flex">
+                    	<div class="data">
+                    		<img src="access/img/clock.png" alt="часы">
+                    		<p>25 Jan 2015</p>
+                    	</div>
+
+                    	<div class="stat">
+                    		<img src="access/img/like.png" alt="like">
+                    		<p>60</p>
+                    		<img src="access/img/coments.png" alt="coment">
+                    		<p>16</p>
+                    	</div>
+                    </div>
+
+                </div>
+    		</div>
+    		<div class="blog">
+    			<div class="blog_cont">
+    			    <img src="access/img/blog.png" alt="blog" class="blog_img">
+                    
+                    <div class="blog_buttons">
+                    	<div class="dlog_buttonscont">
+                    	<a class="get_link"><div><img src="access/img/копировать.png" alt="копировать ссылку"></div></a>
+
+                    	<a class="blog_look" href='index.html'><div><img src="access/img/глаз.png" alt="глаз"></div></a>
+                    	</div>
+                    </div>
+    			</div>
+
+                <div class="blog_text">
+                    <h6>Creat Creative & Clean</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="blog_flex">
+                    	<div class="data">
+                    		<img src="access/img/clock.png" alt="часы">
+                    		<p>25 Jan 2015</p>
+                    	</div>
+
+                    	<div class="stat">
+                    		<img src="access/img/like.png" alt="like">
+                    		<p>60</p>
+                    		<img src="access/img/coments.png" alt="coment">
+                    		<p>16</p>
+                    	</div>
+                    </div>
+                </div>
+    		</div>
+    		</div>
+    	</div>
+    </section>
+
+    <script src="access/js/blog.js"></script>
+
+    <section class="gmail">
+    	<div class="container">
+    		<h2 class="heading">GET IN TOUCH</h2>
+    		<div class="elem_to_senter"><span class="line"></span></div>
+    		<p class="text_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam.</p>
+
+    		<div class="gmail_form_container">
+    			<div class="gmail_name">
+    			     <h5>NAME <span class="star">*</span></h5>
+    			     <div class="textarea smoll_textarea" contenteditable></span></div>
+    			</div>
+
+    			<div class="gmail_mail">
+    			     <h5>MAIL <span class="star">*</span></h5>
+    			     <div class="textarea smoll_textarea" contenteditable></div>
+    			</div>
+
+    			<div class="gmail_message">
+    			     <h5>MASSAGE <span class="star">*</span></h5>
+    			     <div class="textarea big_textarea" contenteditable></div>
+    			</div>
+    		</div>
+
+            <div class="elem_to_senter">
+    		    <button class="gmail_send">
+    			     <p>SEND MESSAGE</p>
+    		    </button>
+    	    </div>
+    	</div>
+    </section>
+
+    <script src="access/js/send.js"></script>
+
+    <section class="map" id="locateOnMap">
+    	<div class="elem_to_senter">
+    		<h4>LOCATE ON MAP</h4>
+    		<button class="map_button"><img style="transform:rotateX(0deg)"  src="access/img/Ярлык.png" alt="Ярлык" class="map_img"></button>
+    	</div>
+
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21147.940933126687!2d22.666469880823303!3d48.50462060649368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4739a99431ae53ed%3A0x5002c64b7accc518!2z0JvQvtGF0L7QstC-LCDQl9Cw0LrQsNGA0L_QsNGC0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDg5NjM0!5e0!3m2!1sru!2sua!4v1589642928227!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="google_map map_hidden"></iframe>
+    </section>
+
+    <script src="access/js/map.js"></script>
+
+    <footer class="footer">
+    	<div class="all_to_senter">
+    	<img src="access/img/Logo.png" alt="Logo" class="footer_logo">
+    	<h3>BOOSTFOLIA</h3>
+    	<h6>MADE WITH LOVE BY CREATIVEPRODUCT</h6>
+    	    		<div class="contacts">
+    	    			<a href="https://twitter.com/login?lang=ru"><img src="access/img/twiter.png" alt="Твитер"></a>
+    	    			<a href="https://uk-ua.facebook.com/"><img src="access/img/feasebook.png" alt="Фейсбук"></a>
+    	    			<a href="https://www.behance.net/"><img src="access/img/behains.png" alt="Behance"></a>
+    	    		</div>
+    	</div>
+    </footer>
+    
+    <script src="access/js/menu.js"></script>
+ </body>
+</html>
