@@ -9,9 +9,9 @@ function openMenu(event) {
 }
 
 aboutUs.onclick = scrolltoAbout;
-works.onclick = scrolltoWorks;
-we.onclick = scrolltoWe;
-blog.onclick = scrolltoBlog;
+// works.onclick = scrolltoWorks;
+// we.onclick = scrolltoWe;
+// blog.onclick = scrolltoBlog;
 locayion.onclick = scrolltoLocation;
 
 function scrolltoAbout(event) {

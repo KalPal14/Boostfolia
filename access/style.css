@@ -587,6 +587,10 @@ body {
     letter-spacing: 0.35px;
     margin: 0 5px;
 }
+.about_us_text {
+	display: inline-block;
+	padding-top: 50px;
+}
 @media screen and (max-width: 768px) {
 	.about {
 	margin-top: 650px;
@@ -610,6 +614,7 @@ body {
 	height: 185px;
 }
 }
+
 @media screen and (max-width: 570px) {
 	.about_line {
 	display: none;
